@@ -1,0 +1,51 @@
+.reference {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.reference__item {
+    display: flex;
+
+}
+
+.reference__list {
+    display: block;
+    align-items: center;
+
+}
+
+.picture {
+    display: block;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+
+    width: 270px;
+    height: 120px;
+    background: var(--button-color);
+    border-radius: 4px;
+}
+
+.reference__title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--main-titlet-color);
+    text-transform: uppercase;
+
+}
+
+.reference__list {
+    flex-basis: 270px;
+}
+
+.reference__list:not(:last-child) {
+    margin-right: 30px;
+}
+
+.reference__text {
+
+    line-height: 1.71;
+
+}

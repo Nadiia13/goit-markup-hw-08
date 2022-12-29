@@ -1,0 +1,22 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--main-font);
+    background: var(--main-background);
+    color: var(--main-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
