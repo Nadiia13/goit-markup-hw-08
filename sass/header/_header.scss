@@ -223,7 +223,7 @@
 .menu-open:hover,
 .menu-open:focus {
     cursor: pointer;
-    fill: #2196F3;
+    color: #2196F3;
 }
 
 .mob-menu {
@@ -256,21 +256,35 @@
     padding: 0;
     border: none;
     background-color: transparent;
+    fill: currentColor;
 }
 
 .menu-close:hover,
 .menu-close:focus{
     cursor: pointer;
+    fill: #2196F3;
+}
+.menu-close{
+    fill: currentColor;
+}
+
+.mob-menu__item--link:hover,
+.mob-menu__item--link:focus{
     color: #2196F3;
 }
 
-.mob-menu__item--link{
+.mob-menu__item{
     font-weight: 500;
     font-size: 40px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     
     color: #212121;
+
+        &:hover,
+        &:focus {
+            color: #2196F3;
+        }
 
 }
 
@@ -282,10 +296,7 @@
     letter-spacing: 0.02em;
 }
 
-.mob-menu__item:hover,
-.mob-menu__item:focus{
-    color: #2196F3;
-}
+
 
 .mob-menu__details:not(:last-child){
     margin-bottom: 32px;
