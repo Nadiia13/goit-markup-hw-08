@@ -176,9 +176,10 @@ footer {
     @media screen and (min-width: 1200px) {
             position: relative;
             text-align: start;
-            width: 358px;
+            align-items: center;
+            flex-basis: 358px;
             margin-top: 0;
-            
+    
         }
     
             & label {
