@@ -191,9 +191,7 @@
         margin-bottom: 10px;
     }
 }
-.current {
-    color: #2196F3;
-}
+
 
 .navigation__details{
     position: absolute;
@@ -220,6 +218,10 @@
 .menu-open:focus {
     cursor: pointer;
     color: #2196F3;
+}
+
+.menu-open {
+    fill: currentColor;
 }
 
 .mob-menu {
