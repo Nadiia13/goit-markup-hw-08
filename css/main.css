@@ -311,25 +311,27 @@ img {
   left: 0;
   background-color: #ffffff;
   width: 480px;
+  height: auto;
   z-index: 1;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.mob-menu > .container {
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
+
+.container__mob {
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
-}
-@media screen and (min-width: 768px) {
-  .mob-menu {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
-  .mob-menu {
-    display: none;
-  }
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
 
 .menu-close {
